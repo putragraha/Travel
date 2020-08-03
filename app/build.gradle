@@ -8,7 +8,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.neptuunia.travel"
+        applicationId "com.nsystem.travel"
 
         minSdkVersion 21
         targetSdkVersion 29

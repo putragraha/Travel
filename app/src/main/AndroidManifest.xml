@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.neptuunia.travel">
+    package="com.nsystem.travel">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:name=".TravelApplication"
+        android:name="com.nsystem.travel.TravelApplication"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -18,7 +18,7 @@
             android:value="${activationKey}" />
 
         <activity
-            android:name=".onboarding.MainActivity"
+            android:name="com.nsystem.travel.onboarding.MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,27 +28,27 @@
         </activity>
 
         <activity
-            android:name=".logindriver.LoginDriverActivity"
+            android:name="com.nsystem.travel.logindriver.LoginDriverActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".loginuser.LoginUserActivity"
+            android:name="com.nsystem.travel.loginuser.LoginUserActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".homedriver.HomeDriverActivity"
+            android:name="com.nsystem.travel.homedriver.HomeDriverActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".homeuser.HomeUserActivity"
+            android:name="com.nsystem.travel.homeuser.HomeUserActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".armadasetting.ArmadaSettingActivity"
+            android:name="com.nsystem.travel.armadasetting.ArmadaSettingActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".historydriver.HistoryDriverActivity"
+            android:name="com.nsystem.travel.historydriver.HistoryDriverActivity"
             android:screenOrientation="portrait" />
 
     </application>
