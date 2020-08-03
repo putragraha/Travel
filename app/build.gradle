@@ -17,8 +17,6 @@ android {
         versionName "1.0"
 
         multiDexEnabled true
-
-        manifestPlaceholders = [activationKey:project.properties['activationKey']]
     }
 
     buildTypes {
@@ -47,8 +45,6 @@ dependencies {
     implementation 'com.android.support:multidex:1.0.3'
 
     implementation 'com.google.android.material:material:1.1.0'
-
-    implementation 'io.rollout.rox:rox-android:4.9.1'
 
     implementation "io.reactivex.rxjava3:rxjava:3.0.0"
     implementation "io.reactivex.rxjava3:rxandroid:3.0.0"
